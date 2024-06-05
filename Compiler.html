@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compilador</title>
+    <link rel="stylesheet" href="StyleCompiler.css">
+    <script src="funcionCompiler.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="editor-container">
+            <div id="lineNumbers"></div>
+            <textarea id="Codigo" placeholder="Escribe tu código aquí" oninput="updateLineNumbers()"></textarea>
+        </div>
+        <button id="compilarButton">Compilar</button>
+        <div id="output"></div>
+    </div>
+</body>
+</html>
